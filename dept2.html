@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Development</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+  <script>
+  document.addEventListener( 'DOMContentLoaded',function(){
+   var searchpara=document.getElementById("search_para").innerHTML;
+   searchpara=searchpara.toString();
+   document.getElementById("search").onclick =function ()
+   {highlight_word(searchpara)};
+  },false);
+
+  function highlight_word(searchpara)
+  {
+   var text=document.getElementById("search_text").value;
+   if(text)
+   {
+    var pattern=new RegExp("("+text+")", "gi");
+    var new_text=searchpara.replace(pattern, "<span class='highlight'>"+text+"</span>");
+    document.getElementById("search_para").innerHTML=new_text;
+   }
+  }
+  </script>
+
+  <style>
+  #search_para
+  {
+   color:grey;
+  }
+  .highlight
+  {
+   color:blue;
+   text-decoration:underline;
+  }
+  </style>
+</head>
+<body>
+  <header id="main-header">
+    <div class="container">
+      <h1>Supply Chain Buddy</h1>
+    </div>
+  </header>
+  <div class="plan">
+    <p>Development</p>
+  </div>
+  <div id="wrapper">
+  <input type="text" id="search_text">
+  <input type="button" value="search" id="search">
+  <div>
+  <h4><p id="search_para">BMW cash to fuel Mini production
+    <br>
+    <br>
+    Less than four years after the new Mini was launched, German car maker BMW has announced £100m of new investment.
+    <br>
+    <br>
+    Some 200 new jobs are to be created at the Oxford factory, including modernised machinery and a new body shell production building. The result of the investment could be to raise output to more than 200,000 cars from 2007. The rise, from 189,000 last year, is a response to rapidly-rising demand and could help wipe out waiting lists. Before Wednesday's announcement, BMW had invested some £280m in Mini production.
+    <br>
+    <br>
+    Since its launch during summer 2001, the new Mini has gone from strength to strength.
+    <br>
+    <br>
+    Last year, almost one in six cars sold by the BMW group was a Mini. The company admits that the success of the brand came despite scepticism from many in the industry. "Our decision to produce a new Mini was not received well right away," said Norbert Reithofer, a member of the BMW management board. Initially, BMW said it would produce 100,000 Mini models a year at its vast Cowley factory on the outskirts of Oxford, but the target was quickly reached, then raised, time and time again. Not everyone is convinced that the boom can continue. "The risk is that after they've invested massively in the brand, demand tapers off like it did with the new VW Beetle," said Brad Wernle, from Automotive News Europe.
+    <br><br>
+    The price of the car has also gone up. When it was launched, the cheapest Mini cost just more than £10,000. These days, buyers will have to fork out almost £11,500 to own a new Mini One, or even more for the Cooper S which costs up to £17,730. The Mini Convertible, which was launched last spring, costs up to £15,690 for the top model, and there is even a waiting list. Second-hand Minis are not cheap either. A Mini One bought when the model was launched should still fetch at least £8,000 for the cheapest model, while a used Cooper S is likely to be priced from £12,556, according to the-car buying website Parker's. The consumers' association Which operates with slightly different numbers, yet it confirms that the Mini Cooper 1.6 depreciates slower than any other car, other than the Mercedes Benz C180 SE and the BMW 1 Series 116i SE.
+    <br><br>
+    The Cowley factory, which initially seemed far too large a production plant for just 100,000 Minis, is increasingly being put to good use.
+    <br><br>
+    There are plans to tear down old buildings and build new ones and there are rumours that a new paint shop could be included in the plans. BMW's Mini adventure has made good much of what went wrong during its stewardship of the UK car maker Rover which it sold for £10 five years ago to the Phoenix consortium. In 1999, when BMW still owned Rover, the Oxford factory was producing the award-winning Rover 75. During that year, 3,500 people produced 56,000 cars. Last year, in the same factory, almost four times as many vehicles were produced by just 4,500 Mini-workers. The Mini factory's current output is equally impressive when compared with the main Rover factory in Longbridge, which in 1999 produced 180,000 Rover cars. Last year, MG Rover, which employs more than 6,000 people, produced just 110,000 cars, though it hopes to land a deal with Shanghai Automotive Industry Corporation (SAIC) that could help double the number of cars produced at Longbridge. Indeed, Mini is not only producing more cars than MG Rover does; it remains ahead even when the current sales of Land Rovers and Range Rovers (which are made by the former Rover unit that BMW sold to Ford) are taken into account.
+    <br>
+    <br>
+    <br>
+    <br>
+    Why few targets are better than many
+    <br>
+    <br>
+The economic targets set out at the Lisbon summit of European Union leaders in 2000 were meant to help Europe leapfrog its way past the United States to become the world's leading economy by 2010.
+<br><br>
+But the Lisbon targets are about much more than just economic prestige. For many economists and analysts they are about ensuring Europe doesn't become a global economic laggard. They are also about ensuring Europe can continue to compete as an equal with the growing economic giants of Asia, India and China, as well as with the economic might of the United States. That's why there was a tone of urgency in the report, out on Wednesday, by the former Dutch prime minister Wim Kok. Mr Kok was commissioned by the European Commission in March this year to assess how far the EU has come towards meeting the Lisbon targets, five years on from their inception. His conclusion was simple: too many of the targets will be seriously missed.
+<br><br>
+Lisbon risks becoming a "synonym for missed objectives and failed promises", his report said. "The status quo is not an option."
+<br><br>
+At risk in the medium to long run is nothing less than the sustainability of the society Europe has built, it said. The report comes at a time when Europe's competitive position is waning. The EU's economic growth rate is projected to be 2% this year and 2.4% next. While there has been growth in overall employment rates in Europe, productivity lags behind that of the US. But meeting the Lisbon targets requires a political commitment that no EU member state has volunteered so far. That has in part been due to the state of the global economy in the past few years.
+<br><br>
+As Mr Kok's report noted: "The ink had scarcely dried on the [Lisbon] agreement before the worldwide stock market bubble imploded." "The US suffered two years of economic slowdown and recession and the European economy followed suit."
+<br><br>
+The circumstances weren't conducive to creating the 20 million new jobs promised by EU leaders in Lisbon in 2000. Neither were they conducive to getting governments to spend more on research and development, money needed if the EU was to meet its target of becoming a so-called "knowledge-based economy". "The [Lisbon] vision is a compelling one, but in order to do it society has to change," said Paul Hofheinz of the Lisbon Council, a Brussels-based citizen action group. "What you find is that a lot of people have been fighting change. You find trade unions fighting change. But also the employers' associations. "Even though they tell you they're in favour of change, many are actually pushing for less competition, more subsidy and less free market activity."
+<br><br>
+But part of the problem was also linked to the original targets set out in Lisbon five years ago. Targets have a habit of coming back to haunt you and in the Lisbon case, they covered too much, according to the Wim report. Economic growth and job creation were linked to issues ranging from environmental protection to social inclusion, and even safety at sea. The agenda was just too broad and as a result nothing was prioritised.
+<br><br>
+"Lisbon is about everything and thus about nothing," the Kok report said. "Everybody is responsible and thus no one." That's why the Kok report recommends that the Lisbon targets be narrowed down to 14 key indicators, with an emphasis on creating jobs and economic growth. It also recommends that the European Commission draw up a league table which ranks countries according to the steps they're taking towards meeting the targets, effectively "naming, shaming and faming". "Rhetoric and delivery don't necessarily go hand in hand," Mr Kok said in a press conference alongside the publication of his report. "We don't have the luxury anymore just to exchange politeness with one another."
+<br><br>
+On one point Mr Kok was very clear: The European Union should not try to emulate the US economy. The European economic and social model needs to change, but not so much so that social and environmental issues take a backseat to economic growth. In that sense, the Lisbon agenda is sailing into unchartered waters. The Kok report tries to do away with a belief that jobs need to be sacrificed at the altar of economic growth. "It's very ambitious," said John Palmer, political director at the European Policy Centre, a Brussels-based think-tank. "This is something that no advanced economy in the world has tried to do. It's going to require quite new and innovative policies." But some analysts believe that the Kok report doesn't come up with the sort of innovative policies and thinking needed to make the Lisbon targets a reality. For example, it recommends putting in place policies which encourage women and older people to remain in the workforce. But it doesn't say how companies should be convinced to do this. It will be up to the incoming president of the European Commission, Jose Manuel Barroso, to adopt Mr Kok's recommendations and press them on EU governments. Mr Barroso has said that the EU's competitiveness will be his top priority. He expects his five-year term in office to be judged on Europe's success in meeting the Lisbon agenda.
+</p>
+</h4>
+
+  <script type="text/javascript">function add_chatinline(){var hccid=17647741;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+  add_chatinline(); </script>
+  <script src="js/find.js"></script>
+</body>
+</html>
